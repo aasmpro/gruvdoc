@@ -1,0 +1,98 @@
+## Site settings
+site_name: GruvDoc
+site_url: https://abolfazlamiri.ir/gruvdoc
+
+## Repo settings
+repo_name: GruvDoc
+repo_url: https://github.com/aasmpro/gruvdoc
+### this line lets you to set
+# edit_uri: ""
+
+## Theme settings
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+  ### comment or delete these lines
+  ### if you want to use default material theme
+  palette:
+    scheme: gruvbox
+    primary: green
+    accent: green
+  ### uncomment to use default material theme
+  # palette:
+  #   scheme: default
+  icon:
+    logo: assets/images/favicon.svg
+  logo: assets/images/favicon.svg
+
+## Extra data
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/aasmpro
+      name: My Twitter
+
+## Navigation
+use_directory_urls: true
+
+## Copyright
+copyright: GruvDoc | GPL3+
+
+## Extension settings
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - meta
+  - toc:
+      permalink: "#"
+
+## Plugin settings
+plugins:
+  - search
+  - macros
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
+
+## Extra js files
+extra_javascript:
+  - assets/javascripts/tablesort.min.js
+  - assets/javascripts/tables.js
+
+## Extra css files
+### comment or delete these lines
+### if you want to use default material theme
+extra_css:
+  - assets/stylesheets/fonts.css
+  - assets/stylesheets/vars.css
+  - assets/stylesheets/scheme.css
+  - assets/stylesheets/primary.css
+  - assets/stylesheets/accent.css
+  - assets/stylesheets/admonitions.css
+  - assets/stylesheets/utils.css
+  - assets/stylesheets/styles.css
