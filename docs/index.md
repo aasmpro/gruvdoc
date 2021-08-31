@@ -1,3 +1,7 @@
+---
+hide:
+  - navigation
+---
 GruvDoc is pre-configured [MkDocs](https://www.mkdocs.org/) project with all the must useful extensions and tweaks needed, including github workflow actions to ease the progress of deploying your docs, just Fork, Change and Push!
 
 it tweaks [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme with [GruvBox](https://github.com/morhetz/gruvbox) color palette and uses [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) as default font.

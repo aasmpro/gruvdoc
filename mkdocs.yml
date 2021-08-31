@@ -1,19 +1,25 @@
 ## Site settings
 site_name: GruvDoc
 site_url: https://abolfazlamiri.ir/gruvdoc
+site_author: Abolfazl Amiri
+site_description: Pre-configured MkDocs project with GruvBox colors and JetBrainsMono font.
 
 ## Repo settings
 repo_name: GruvDoc
 repo_url: https://github.com/aasmpro/gruvdoc
-### this line lets you to set
-# edit_uri: ""
+edit_uri: ""
 
 ## Theme settings
 theme:
   name: material
   favicon: assets/images/favicon.png
   features:
+    - search.highlight
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
   ### comment or delete these lines
   ### if you want to use default material theme
   palette:
@@ -32,7 +38,8 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/aasmpro
-      name: My Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/aasmpro/
 
 ## Navigation
 use_directory_urls: true
@@ -81,8 +88,7 @@ plugins:
 
 ## Extra js files
 extra_javascript:
-  - assets/javascripts/tablesort.min.js
-  - assets/javascripts/tables.js
+  - assets/javascripts/tablesort.js
 
 ## Extra css files
 ### comment or delete these lines

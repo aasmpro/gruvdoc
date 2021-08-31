@@ -45,6 +45,14 @@ input.md-search__input::-ms-input-placeholder {
   color: var(--md-default-fg-color);
 }
 
+/* Top */
+.md-top,
+.md-top:hover,
+.md-top:focus {
+  color: var(--md-default-fg-color);
+  border: 2px solid var(--md-primary-fg-color);
+}
+
 /* Set different color for headers */
 /* .md-header, .md-tabs, .md-nav--primary .md-nav__title[for="__drawer"] {
   background-color: #000000;

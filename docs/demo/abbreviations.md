@@ -1,3 +1,7 @@
+---
+hide:
+    - toc
+---
 check [mkdocs-material/abbreviations](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/) for more information.
 
 ```md
