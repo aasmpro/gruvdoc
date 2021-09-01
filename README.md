@@ -2,9 +2,6 @@ GruvDoc is pre-configured [MkDocs](https://www.mkdocs.org/) project with all the
 
 it tweaks [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme with [GruvBox](https://github.com/morhetz/gruvbox) color palette and uses [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) as default font.
 
-
- and start editing, then commit and push to your own repositories :)
-
 ### Usage
 [Fork](https://github.com/aasmpro/gruvdoc/fork) GruvDoc github repo and Clone it or Clone the main repo:
 ```
