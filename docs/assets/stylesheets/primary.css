@@ -6,6 +6,7 @@
   --md-typeset-mark-color: var(--color-blue0-rgba05);
   --md-typeset-kbd-color: var(--color-blue0);
   --md-typeset-kbd-border-color: var(--color-blue0-rgba04);
+  --md-code-hl-color: var(--color-dark0-rgba04);
 }
 [data-md-color-primary="gray"] {
   --md-primary-fg-color: var(--color-gray0);
@@ -14,6 +15,7 @@
   --md-typeset-mark-color: var(--color-gray0-rgba05);
   --md-typeset-kbd-color: var(--color-gray0);
   --md-typeset-kbd-border-color: var(--color-gray0-rgba04);
+  --md-code-hl-color: var(--color-gray0-rgba01);
 }
 [data-md-color-primary="gray1"] {
   --md-primary-fg-color: var(--color-gray1);
@@ -22,6 +24,7 @@
   --md-typeset-mark-color: var(--color-gray1-rgba05);
   --md-typeset-kbd-color: var(--color-gray1);
   --md-typeset-kbd-border-color: var(--color-gray1-rgba04);
+  --md-code-hl-color: var(--color-gray1-rgba01);
 }
 [data-md-color-primary="gray2"] {
   --md-primary-fg-color: var(--color-gray2);
@@ -30,6 +33,7 @@
   --md-typeset-mark-color: var(--color-gray2-rgba05);
   --md-typeset-kbd-color: var(--color-gray2);
   --md-typeset-kbd-border-color: var(--color-gray2-rgba04);
+  --md-code-hl-color: var(--color-gray2-rgba01);
 }
 [data-md-color-primary="red"] {
   --md-primary-fg-color: var(--color-red0);
@@ -38,6 +42,7 @@
   --md-typeset-mark-color: var(--color-red0-rgba05);
   --md-typeset-kbd-color: var(--color-red0);
   --md-typeset-kbd-border-color: var(--color-red0-rgba04);
+  --md-code-hl-color: var(--color-red0-rgba01);
 }
 [data-md-color-primary="red1"] {
   --md-primary-fg-color: var(--color-red1);
@@ -46,6 +51,7 @@
   --md-typeset-mark-color: var(--color-red1-rgba05);
   --md-typeset-kbd-color: var(--color-red1);
   --md-typeset-kbd-border-color: var(--color-red1-rgba04);
+  --md-code-hl-color: var(--color-red1-rgba01);
 }
 [data-md-color-primary="red2"] {
   --md-primary-fg-color: var(--color-red2);
@@ -54,6 +60,7 @@
   --md-typeset-mark-color: var(--color-red2-rgba05);
   --md-typeset-kbd-color: var(--color-red2);
   --md-typeset-kbd-border-color: var(--color-red2-rgba04);
+  --md-code-hl-color: var(--color-red2-rgba01);
 }
 [data-md-color-primary="green"] {
   --md-primary-fg-color: var(--color-green0);
@@ -62,6 +69,7 @@
   --md-typeset-mark-color: var(--color-green0-rgba05);
   --md-typeset-kbd-color: var(--color-green0);
   --md-typeset-kbd-border-color: var(--color-green0-rgba04);
+  --md-code-hl-color: var(--color-green0-rgba01);
 }
 [data-md-color-primary="green1"] {
   --md-primary-fg-color: var(--color-green1);
@@ -70,6 +78,7 @@
   --md-typeset-mark-color: var(--color-green1-rgba05);
   --md-typeset-kbd-color: var(--color-green1);
   --md-typeset-kbd-border-color: var(--color-green1-rgba04);
+  --md-code-hl-color: var(--color-green1-rgba01);
 }
 [data-md-color-primary="green2"] {
   --md-primary-fg-color: var(--color-green2);
@@ -78,6 +87,7 @@
   --md-typeset-mark-color: var(--color-green2-rgba05);
   --md-typeset-kbd-color: var(--color-green2);
   --md-typeset-kbd-border-color: var(--color-green2-rgba04);
+  --md-code-hl-color: var(--color-green2-rgba01);
 }
 [data-md-color-primary="yellow"] {
   --md-primary-fg-color: var(--color-yellow0);
@@ -86,6 +96,7 @@
   --md-typeset-mark-color: var(--color-yellow0-rgba05);
   --md-typeset-kbd-color: var(--color-yellow0);
   --md-typeset-kbd-border-color: var(--color-yellow0-rgba04);
+  --md-code-hl-color: var(--color-yellow0-rgba01);
 }
 [data-md-color-primary="yellow1"] {
   --md-primary-fg-color: var(--color-yellow1);
@@ -94,6 +105,7 @@
   --md-typeset-mark-color: var(--color-yellow1-rgba05);
   --md-typeset-kbd-color: var(--color-yellow1);
   --md-typeset-kbd-border-color: var(--color-yellow1-rgba04);
+  --md-code-hl-color: var(--color-yellow1-rgba01);
 }
 [data-md-color-primary="yellow2"] {
   --md-primary-fg-color: var(--color-yellow2);
@@ -102,6 +114,7 @@
   --md-typeset-mark-color: var(--color-yellow2-rgba05);
   --md-typeset-kbd-color: var(--color-yellow2);
   --md-typeset-kbd-border-color: var(--color-yellow2-rgba04);
+  --md-code-hl-color: var(--color-yellow2-rgba01);
 }
 [data-md-color-primary="blue"] {
   --md-primary-fg-color: var(--color-blue0);
@@ -110,6 +123,7 @@
   --md-typeset-mark-color: var(--color-blue0-rgba05);
   --md-typeset-kbd-color: var(--color-blue0);
   --md-typeset-kbd-border-color: var(--color-blue0-rgba04);
+  --md-code-hl-color: var(--color-blue0-rgba01);
 }
 [data-md-color-primary="blue1"] {
   --md-primary-fg-color: var(--color-blue1);
@@ -118,6 +132,7 @@
   --md-typeset-mark-color: var(--color-blue1-rgba05);
   --md-typeset-kbd-color: var(--color-blue1);
   --md-typeset-kbd-border-color: var(--color-blue1-rgba04);
+  --md-code-hl-color: var(--color-blue1-rgba01);
 }
 [data-md-color-primary="blue2"] {
   --md-primary-fg-color: var(--color-blue2);
@@ -126,6 +141,7 @@
   --md-typeset-mark-color: var(--color-blue2-rgba05);
   --md-typeset-kbd-color: var(--color-blue2);
   --md-typeset-kbd-border-color: var(--color-blue2-rgba04);
+  --md-code-hl-color: var(--color-blue2-rgba01);
 }
 [data-md-color-primary="purple"] {
   --md-primary-fg-color: var(--color-purple0);
@@ -134,6 +150,7 @@
   --md-typeset-mark-color: var(--color-purple0-rgba05);
   --md-typeset-kbd-color: var(--color-purple0);
   --md-typeset-kbd-border-color: var(--color-purple0-rgba04);
+  --md-code-hl-color: var(--color-purple0-rgba01);
 }
 [data-md-color-primary="purple1"] {
   --md-primary-fg-color: var(--color-purple1);
@@ -142,6 +159,7 @@
   --md-typeset-mark-color: var(--color-purple1-rgba05);
   --md-typeset-kbd-color: var(--color-purple1);
   --md-typeset-kbd-border-color: var(--color-purple1-rgba04);
+  --md-code-hl-color: var(--color-purple1-rgba01);
 }
 [data-md-color-primary="purple2"] {
   --md-primary-fg-color: var(--color-purple2);
@@ -150,6 +168,7 @@
   --md-typeset-mark-color: var(--color-purple2-rgba05);
   --md-typeset-kbd-color: var(--color-purple2);
   --md-typeset-kbd-border-color: var(--color-purple2-rgba04);
+  --md-code-hl-color: var(--color-purple2-rgba01);
 }
 [data-md-color-primary="aqua"] {
   --md-primary-fg-color: var(--color-aqua0);
@@ -158,6 +177,7 @@
   --md-typeset-mark-color: var(--color-aqua0-rgba05);
   --md-typeset-kbd-color: var(--color-aqua0);
   --md-typeset-kbd-border-color: var(--color-aqua0-rgba04);
+  --md-code-hl-color: var(--color-aqua0-rgba01);
 }
 [data-md-color-primary="aqua1"] {
   --md-primary-fg-color: var(--color-aqua1);
@@ -166,6 +186,7 @@
   --md-typeset-mark-color: var(--color-aqua1-rgba05);
   --md-typeset-kbd-color: var(--color-aqua1);
   --md-typeset-kbd-border-color: var(--color-aqua1-rgba04);
+  --md-code-hl-color: var(--color-aqua1-rgba01);
 }
 [data-md-color-primary="aqua2"] {
   --md-primary-fg-color: var(--color-aqua2);
@@ -174,6 +195,7 @@
   --md-typeset-mark-color: var(--color-aqua2-rgba05);
   --md-typeset-kbd-color: var(--color-aqua2);
   --md-typeset-kbd-border-color: var(--color-aqua2-rgba04);
+  --md-code-hl-color: var(--color-aqua2-rgba01);
 }
 [data-md-color-primary="orange"] {
   --md-primary-fg-color: var(--color-orange0);
@@ -182,6 +204,7 @@
   --md-typeset-mark-color: var(--color-orange0-rgba05);
   --md-typeset-kbd-color: var(--color-orange0);
   --md-typeset-kbd-border-color: var(--color-orange0-rgba04);
+  --md-code-hl-color: var(--color-orange0-rgba01);
 }
 [data-md-color-primary="orange1"] {
   --md-primary-fg-color: var(--color-orange1);
@@ -190,6 +213,7 @@
   --md-typeset-mark-color: var(--color-orange1-rgba05);
   --md-typeset-kbd-color: var(--color-orange1);
   --md-typeset-kbd-border-color: var(--color-orange1-rgba04);
+  --md-code-hl-color: var(--color-orange1-rgba01);
 }
 [data-md-color-primary="orange2"] {
   --md-primary-fg-color: var(--color-orange2);
@@ -198,4 +222,5 @@
   --md-typeset-mark-color: var(--color-orange2-rgba05);
   --md-typeset-kbd-color: var(--color-orange2);
   --md-typeset-kbd-border-color: var(--color-orange2-rgba04);
+  --md-code-hl-color: var(--color-orange2-rgba01);
 }

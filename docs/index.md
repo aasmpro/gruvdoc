@@ -2,40 +2,51 @@
 hide:
   - navigation
 ---
-GruvDoc is pre-configured [MkDocs](https://www.mkdocs.org/) project with all the must useful extensions and tweaks needed, including github workflow actions to ease the progress of deploying your docs, just Fork, Change and Push!
+GruvDoc is pre-configured [MkDocs](https://www.mkdocs.org/) project with all the must useful extensions and tweaks needed, just Fork, Change and Push!
 
-it tweaks [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme with [GruvBox](https://github.com/morhetz/gruvbox) color palette and uses [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) as default font.
-
-
- and start editing, then commit and push to your own repositories :)
+### Features
+- GruvDoc is all extra config files, anything can be [changed](#you-dont-want-tweaks) easily.
+- Tweaks [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) under the hood!
+- [GruvBox](/gruvdoc/docs/colors/) color palette with 24 different colors for both primary and accent.
+- [JetBrainsMono](/gruvdoc/docs/fonts/) font.
+- Simple, pre-configured [mkdocs.yml](https://github.com/aasmpro/gruvdoc/blob/master/mkdocs.yml) file.
+- [Github](https://github.com/aasmpro/gruvdoc/blob/master/.github/workflows/gruvdoc.yml) / [Gitlab](https://github.com/aasmpro/gruvdoc/blob/master/.gitlab-ci.yml) Workflows included for auto Deployment!
+- Including [Styles](/gruvdoc/docs/styles/) and custom [Utils](/gruvdoc/docs/utils/).
 
 ### Usage
 [Fork](https://github.com/aasmpro/gruvdoc/fork) GruvDoc github repo and Clone it or Clone the main repo:
 ```
 git clone https://github.com/aasmpro/gruvdoc.git
 ```
-!!! tip "by Forking you don't need to create and set new repo."
+!!! quote "by [Forking](https://github.com/aasmpro/gruvdoc/fork) you don't need to create and set new repo."
 
 create a virtual environment and install packages:
 ```
-pip install -r requirements.txt
+pip install -r requirements/gruvdoc.txt
 ```
-serve you local version and start editing!
+serve your local version and start editing!
 ```
 mkdocs serve
 ```
-when you are done, commit and push changes. github actions take care of deployments.
-
-also there is a `gitlab-ci.yml` file for GitLab users ;)
+when you are done, commit and push changes. workflows will take care of deployments.
 
 check [mkdocs-material/publishing](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) for more information.
 
+#### In another repo
+if you want to add GruvDoc in another project:
+
+- copy `docs` folder to your project
+- copy `mkdocs.yml` file to your project
+- copy `requirements` folder to your project
+- copy `.github/workflows/gruvdoc.yml` or `.gitlab-ci.yml` for workflows
+ 
+
 ### You don't want tweaks?!
 you rather using GrubDoc without its tweaked theme? no problem!
-just comment or delete extra css section in `mkdocs.yml` file and set your default theme!
-```yaml hl_lines="4-12" linenums="87"
+just comment extra css section in `mkdocs.yml` file:
+```yaml hl_lines="4-12"
 ## Extra css files
-### comment or delete these lines
+### comment these lines,
 ### if you want to use default material theme
 extra_css:
   - assets/stylesheets/fonts.css
@@ -47,15 +58,12 @@ extra_css:
   - assets/stylesheets/utils.css
   - assets/stylesheets/styles.css
 ```
-and comment or change:
-```yaml hl_lines="9-12" linenums="11"
+and then set your palette:
+```yaml hl_lines="9-12"
 ## Theme settings
 theme:
   name: material
-  favicon: assets/images/favicon.png
-  features:
-    - navigation.tabs
-  ### comment or delete these lines
+  ### comment these lines,
   ### if you want to use default material theme
   palette:
     scheme: gruvbox
@@ -65,3 +73,4 @@ theme:
   # palette:
   #   scheme: default
 ```
+you can change anything by editing only `mkdocs.yml` file.

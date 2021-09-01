@@ -12,15 +12,8 @@ edit_uri: ""
 ## Theme settings
 theme:
   name: material
-  favicon: assets/images/favicon.png
-  features:
-    - search.highlight
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.instant
-    - navigation.top
-    - toc.integrate
-  ### comment or delete these lines
+  custom_dir: docs/overrides
+  ### comment these lines,
   ### if you want to use default material theme
   palette:
     scheme: gruvbox
@@ -29,9 +22,17 @@ theme:
   ### uncomment to use default material theme
   # palette:
   #   scheme: default
+  favicon: assets/images/favicon.png
   icon:
     logo: assets/images/favicon.svg
   logo: assets/images/favicon.svg
+  features:
+    - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
 
 ## Extra data
 extra:
@@ -40,12 +41,57 @@ extra:
       link: https://twitter.com/aasmpro
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/aasmpro/
+    - icon: octicons/dot-fill-24
+      link: https://abolfazlamiri.ir
+
+  ## Version
+  ### this extra key generates a version text after copyright
+  ### must have name and link
+  version:
+    name: v1.0.0
+    link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.0
+
+  ## License
+  ### this extra key generates a license text after copyright
+  ### must have name and link
+  license:
+    name: GPL3+
+    link: https://github.com/aasmpro/gruvdoc/blob/master/LICENSE
+
+  ## Made with
+  ### this extra key can set `Made with ...` text in footer
+  ### set true to get default one
+  ### comment for set false to remove
+  ### or set your custom text!
+  made_with: true
 
 ## Navigation
 use_directory_urls: true
 
+### this is for manual nav configs
+### uncomment to config nav manually
+# nav:
+#   - Home: index.md
+
 ## Copyright
-copyright: GruvDoc | GPL3+
+copyright: GruvDoc
+
+## Extra js files
+extra_javascript:
+  - assets/javascripts/tablesort.js
+
+## Extra css files
+### comment these lines,
+### if you want to use default material theme
+extra_css:
+  - assets/stylesheets/fonts.css
+  - assets/stylesheets/vars.css
+  - assets/stylesheets/scheme.css
+  - assets/stylesheets/primary.css
+  - assets/stylesheets/accent.css
+  - assets/stylesheets/admonitions.css
+  - assets/stylesheets/fixes.css
+  - assets/stylesheets/styles.css
 
 ## Extension settings
 markdown_extensions:
@@ -85,20 +131,3 @@ plugins:
       minify_js: true
       htmlmin_opts:
         remove_comments: true
-
-## Extra js files
-extra_javascript:
-  - assets/javascripts/tablesort.js
-
-## Extra css files
-### comment or delete these lines
-### if you want to use default material theme
-extra_css:
-  - assets/stylesheets/fonts.css
-  - assets/stylesheets/vars.css
-  - assets/stylesheets/scheme.css
-  - assets/stylesheets/primary.css
-  - assets/stylesheets/accent.css
-  - assets/stylesheets/admonitions.css
-  - assets/stylesheets/utils.css
-  - assets/stylesheets/styles.css

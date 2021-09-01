@@ -4,7 +4,7 @@
   --md-default-fg-color: var(--color-light0);
   --md-default-fg-color--light: var(--color-light1);
   --md-default-fg-color--lighter: var(--color-light2);
-  --md-default-fg-color--lightest: #0f0f0f;
+  --md-default-fg-color--lightest: var(--color-dark0-rgba04);
   --md-default-bg-color: var(--color-black);
   --md-default-bg-color--light: var(--color-dark0);
   --md-default-bg-color--lighter: var(--color-dark1);
@@ -19,16 +19,16 @@
 
   /* Accent color shades */
   --md-accent-fg-color: var(--color-blue0);
-  --md-accent-fg-color--transparent: #0d0d0d;
-  --md-accent-bg-color: var(--color-black);
-  --md-accent-bg-color--light: var(--color-black);
+  --md-accent-fg-color--transparent: var(--color-blue0-rgba01);
+  --md-accent-bg-color: var(--color-blue0-rgba09);
+  --md-accent-bg-color--light: var(--color-blue0-rgba05);
 
   /* Code color shades */
   --md-code-fg-color: var(--color-light1);
-  --md-code-bg-color: #0d0d0d;
+  --md-code-bg-color: var(--color-dark0-rgba04);
 
   /* Code highlighting color shades */
-  --md-code-hl-color: var(--color-dark0);
+  --md-code-hl-color: var(--color-blue0-rgba01);
   --md-code-hl-number-color: var(--color-purple2);
   --md-code-hl-special-color: var(--color-blue1);
   --md-code-hl-function-color: var(--color-yellow2);
@@ -46,7 +46,7 @@
   --md-typeset-color: var(--md-default-fg-color);
 
   /* Typeset `a` color shades */
-  --md-typeset-a-color: var(--md-primary-fg-color);
+  --md-typeset-a-color: var(--md-accent-fg-color);
 
   /* Typeset `mark` color shades */
   --md-typeset-mark-color: var(--color-blue0-rgba05);
@@ -58,14 +58,14 @@
   /* Typeset `kbd` color shades */
   --md-typeset-kbd-color: var(--color-blue0);
   --md-typeset-kbd-accent-color: rgba(0, 0, 0, 0);
-  --md-typeset-kbd-border-color: var(--color-blue0-rgba05);
+  --md-typeset-kbd-border-color: var(--color-blue0-rgba04);
 
   /* Typeset `table` color shades */
-  --md-typeset-table-color: #0d0d0d;
+  --md-typeset-table-color: var(--color-dark0-rgba04);
 
   /* Admonition color shades */
   --md-admonition-fg-color: var(--md-default-fg-color);
-  --md-admonition-bg-color: var(--md-default-bg-color);
+  --md-admonition-bg-color: var(--color-dark0-rgba02);
 
   /* Footer color shades */
   --md-footer-fg-color: var(--color-light0);

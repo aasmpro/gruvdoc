@@ -1,20 +1,33 @@
+### Made with
+an extra `made_with` key can change `Made with ...` content in footer.
+- set `true` to show default
+- set `false` or comment to remove
+- or set your custom text!
+
+```yaml
+extra:
+    made_with: true # or false
+    # or
+    made_with: Made with Love!
+```
+
+### Version
+an extra `version` key can version content in footer.
+```yaml
+extra:
+    version:
+        name: v1.0.0
+        link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.0
+```
+
+### License
+an extra `license` key can version content in footer.
+```yaml
+extra:
+    license:
+        name: GPL3+
+        link: https://github.com/aasmpro/gruvdoc/blob/master/LICENSE
+```
+
 ### Sortable tables
 `tablesort.js` file in extra javascript files contains the code which make table headers clickable for sorting.
-
-!!! note
-    style fixes are done with utils file.
-
-### Task list color
-setting task list checked item color to theme `--md-primary-fg-color`.
-
-### Selection color
-this part sets user selection foreground color to `--md-default-fg-color` and background to `--md-typeset-mark-color` from current theme.
-
-### Search placeholder color
-by default search place holder color wont change with changing theme for scheme, here placeholder color sets to theme `--md-default-fg-color`.
-
-### Table header
-table headers like placeholders wont change with theme colors, so GruvDoc set foreground color to `--md-default-fg-color` and background to `--md-primary-fg-color` from current theme .
-
-### Remove footer
-if you want to remove footer entirely, uncomment styles for `.md-footer`.

@@ -65,4 +65,4 @@ color palette variables are in `/docs/assets/stylesheets/vars.css`. there are 11
 
 
 ## Admonitions
-[admonitions](/cheats/admonitions/) colors are configured in `/docs/assets/stylesheets/admonitions.css`.
+[admonitions](/gruvdoc/demo/admonitions/) colors are configured in `/docs/assets/stylesheets/admonitions.css`.
