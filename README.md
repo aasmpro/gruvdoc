@@ -43,7 +43,7 @@ if you want to add GruvDoc in another project:
 ### You don't want tweaks?!
 you rather using GrubDoc without its tweaked theme? no problem!
 just comment extra css section in `mkdocs.yml` file:
-```yaml hl_lines="4-12"
+```yaml
 ## Extra css files
 ### comment these lines,
 ### if you want to use default material theme
@@ -58,7 +58,7 @@ extra_css:
   - assets/stylesheets/styles.css
 ```
 and then set your palette:
-```yaml hl_lines="9-12"
+```yaml
 ## Theme settings
 theme:
   name: material

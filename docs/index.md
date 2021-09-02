@@ -59,7 +59,7 @@ extra_css:
   - assets/stylesheets/styles.css
 ```
 and then set your palette:
-```yaml hl_lines="9-12"
+```yaml hl_lines="6-9"
 ## Theme settings
 theme:
   name: material
