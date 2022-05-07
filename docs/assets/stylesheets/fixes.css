@@ -53,6 +53,11 @@ input.md-search__input::-ms-input-placeholder {
   border: 2px solid var(--md-primary-fg-color);
 }
 
+/* Header */
+.md-header__title {
+  padding-top: 0.5rem;
+}
+
 /* Set different color for headers */
 /* .md-header, .md-tabs, .md-nav--primary .md-nav__title[for="__drawer"] {
   background-color: #000000;

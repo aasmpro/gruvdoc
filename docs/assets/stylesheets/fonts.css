@@ -129,4 +129,7 @@
 /* Set font */
 * {
   font-family: JBM;
+  letter-spacing: -0.4px;
+  word-spacing: -3px;
+  line-height: 1.3;
 }
