@@ -58,6 +58,13 @@ input.md-search__input::-ms-input-placeholder {
   padding-top: 0.5rem;
 }
 
+/* Footer */
+.md-footer-copyright {
+  font-size: 0.6rem;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
 /* Set different color for headers */
 /* .md-header, .md-tabs, .md-nav--primary .md-nav__title[for="__drawer"] {
   background-color: #000000;

@@ -16,8 +16,8 @@ an extra `version` key can version content in footer.
 ```yaml
 extra:
     version:
-        name: v1.0.0
-        link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.0
+        name: v1.0.4
+        link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.4
 ```
 
 ### License

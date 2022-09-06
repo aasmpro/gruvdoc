@@ -48,8 +48,8 @@ extra:
   ### this extra key generates a version text after copyright
   ### must have name and link
   version:
-    name: v1.0.0
-    link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.0
+    name: v1.0.4
+    link: https://github.com/aasmpro/gruvdoc/releases/tag/v1.0.4
 
   ## License
   ### this extra key generates a license text after copyright
@@ -110,7 +110,11 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.caret
   - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets
   - pymdownx.tabbed
   - pymdownx.tilde
