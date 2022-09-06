@@ -25,7 +25,7 @@ an extra `license` key can version content in footer.
 ```yaml
 extra:
     license:
-        name: GPL3+
+        name: MIT
         link: https://github.com/aasmpro/gruvdoc/blob/master/LICENSE
 ```
 

@@ -55,7 +55,7 @@ extra:
   ### this extra key generates a license text after copyright
   ### must have name and link
   license:
-    name: GPL3+
+    name: MIT
     link: https://github.com/aasmpro/gruvdoc/blob/master/LICENSE
 
   ## Made with
